@@ -1,0 +1,26 @@
+###
+# login
+http://localhost:6000/admin/login
+Content-Type: application/json
+{
+    "email": "admin@gmail.com",
+    "password": "admin1234"
+    
+}
+
+###
+# Register Admin
+http://localhost:6000/admin/registerAdmin
+Content-Type: application/json
+{
+     
+     "firstName": "ADMIN",
+     "lastName": "admin",
+    "email": "admin@gmail.com",
+    "password": "admin1234"
+  
+}
+###
+# getCar User
+http://localhost:6000/getCar
+

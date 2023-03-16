@@ -1,0 +1,38 @@
+{
+  "name": "nam-x",
+  "version": "1.0.0",
+  "description": "build a modern website for NamX company to showcase their products and services to users and include a back office for administrators to manage pre-orders.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server.js ",
+    "server": "nodemon api/server.js",
+    "test": "jest"
+  },
+  "author": "Godfather",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "emailsender-js": "^0.1.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "nodemailer": "^6.8.0",
+    "request": "^2.88.2",
+    "stripe": "^11.4.0",
+    "supertest": "^6.3.3",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20"
+  }
+}
